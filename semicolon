@@ -1,0 +1,3 @@
+cprogram2.c:18:20: warning: missing terminating " character
+  printf("%d+1"is %d",m,n);
+error was missing terminating character using " in wrong place printf("%d+1 is %d",m,n);
