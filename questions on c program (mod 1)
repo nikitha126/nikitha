@@ -1,0 +1,65 @@
+#include<stdio.h>
+
+
+ int input (void)
+   {
+      int a;
+      printf("enter a number\n");
+      scanf("%d",&a)
+      return a;
+}
+      int compute(int x)
+{
+        x=x+1;
+        return x;
+}
+        void output (int m,int n);
+{
+        printf("%d+1 is %d",m,n);
+}
+        int main(void)
+{
+        int a=input();
+        int b=compute(a);
+        output (a,b)
+        
+        
+        
+#include<stdio.h>
+ int input (void)
+
+why is #include  used?
+is a directive to the C preprocessor. Lines beginning with # are processed by the prepro-
+cessor before compilation. that is :#include<stdio.h> pg:42
+why int input (void)?
+:int main( void )
+int main( void )here refers to the main function is a part of every C program. The parentheses after main indicate that main is a program
+building block called a function.pd:42
+why void is used?in this function int input(void)
+The void in parentheses here means that main does not receive any information.pg:42
+
+{
+      int a;
+      printf("enter a number\n");
+      scanf("%d",&a)
+      return a;
+}
+
+
+why is {}used in the program?
+A left brace {  begins the body of every function A corresponding right brace }
+ends each function This pair of braces and the portion of the program between
+the braces is called a block.pg:42
+what is int here refers ?
+here int is that it holds a interger value that could be a whole number such:7,-9,8,-79 pg:47
+ex:int a:here "a" can be any whole number from 0to infinity
+what is printf?
+it is used in promoting the messages it displays the literal "Enter first integer" and positions the cursor to the beginning of the
+next line. This message is called a prompt because it tells the user to take a specific action.like:printf("enter a number\n");pg:47
+what is scanf?
+uses scanf (the “ f ” stands for “formatted”) to obtain a value from the user. The function
+reads from the standard input, which is usually the keyboard. This scanf has two arguments,
+"%d" and &integer1 .pg:47
+what is return a?
+
+
